@@ -1,6 +1,6 @@
 from pyyoutube import Api
 
-api = Api(api_key="AIzaSyBjkPWhH-pTk-MiWaTl1iZBCiyVaLJw5Co")
+api = Api(api_key="")
 channel_by_id = api.get_channel_info(channel_id="UCfpjCLOmLadxkc_eoOzuybg")
 playlist_id = channel_by_id.items[0].contentDetails.relatedPlaylists.uploads
 print(playlist_id)
