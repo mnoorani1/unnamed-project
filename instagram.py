@@ -5,7 +5,8 @@ from instascrape import *
 # from selenium.webdriver import Chrome 
 
 
-profiles = ["https://www.instagram.com/irfanjunejo/", "https://www.instagram.com/ganjiswag/", "https://www.instagram.com/mooroosicity/", "https://www.instagram.com/alinahxyat/"]
+profiles = ["https://www.instagram.com/irfanjunejo/", "https://www.instagram.com/ganjiswag/", "https://www.instagram.com/mooroosicity/", "https://www.instagram.com/alinahxyat/", "https://www.instagram.com/kaziakber/",
+"https://www.instagram.com/abdullah.s.siddiqui/", "https://www.instagram.com/wildlensbyabrar/"]
 sessionid = "sessionid=391635289%3AKJPeOsoTgKlp08%3A16;"
 headers = {
     "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Mobile Safari/537.36 Edg/87.0.664.57",
